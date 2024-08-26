@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="container mx-auto text-center">
+    <div class="flex flex-col">
+        <h1 class="text-6xl">People Entered</h1>
+        <br>
+        <h2 id="count-el" class="text-6xl font-bold">0</h2>
+        <br>
+        
+        <button id="increment-btn" onclick="increment()" class="mx-auto w-auto btn btn-primary uppercase">Increment</button>
+        <br>
+        <button id="reset-btn" onclick="reset()" class="mx-auto w-auto btn btn-primary uppercase">Reset</button>
+        <br>
+        <button id="save-btn" onclick="save()" class="mx-auto w-auto btn btn-primary uppercase">Save</button>
+        <br>
+        
+        <button id="save-el" onclick="" class="mx-auto w-auto btn btn-primary uppercase"></button>
+        <br>
+        <button id="historyReset-btn" onclick="historyReset()" class="mx-auto w-auto btn btn-primary uppercase">History Resrt</button>
+
+        
+
+
+    </div>
+
+
+
+</body>
+<script src="code.js"></script>
+</html>
